@@ -1,0 +1,654 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ba",
+				"backgroundColor〔variable〕"
+			],
+			[
+				"prje",
+				"projects"
+			],
+			[
+				"In",
+				"Inteligente"
+			],
+			[
+				"Ad",
+				"Administrator"
+			],
+			[
+				"scho",
+				"schoolName"
+			],
+			[
+				"HTMLsc",
+				"HTMLschoolStart〔variable〕"
+			],
+			[
+				"edu",
+				"education〔variable〕"
+			],
+			[
+				"ed",
+				"education"
+			],
+			[
+				"HTMLwor",
+				"HTMLworkStart〔variable〕"
+			],
+			[
+				"forma",
+				"formattedBio"
+			],
+			[
+				"bio",
+				"bioPic〔variable〕"
+			],
+			[
+				"fr",
+				"formattedEmail"
+			],
+			[
+				"formate",
+				"formattedMobile〔variable〕"
+			],
+			[
+				"HTMLmobi",
+				"HTMLmobile〔variable〕"
+			],
+			[
+				"HTMLHe",
+				"HTMLheaderRole〔variable〕"
+			],
+			[
+				"format",
+				"formattedName〔variable〕"
+			],
+			[
+				"formatt",
+				"formattedRole〔variable〕"
+			],
+			[
+				"form",
+				"formattedRole〔variable〕"
+			],
+			[
+				"forr",
+				"formattedName〔variable〕"
+			],
+			[
+				"htt",
+				"HttpResponse  (class)"
+			],
+			[
+				"mongo",
+				"MongoClient"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"se",
+				"setMaestro"
+			],
+			[
+				"get",
+				"getNombre"
+			],
+			[
+				"ma",
+				"matematicas"
+			],
+			[
+				"set",
+				"setNombre"
+			],
+			[
+				"peso",
+				"pesoEnMarte"
+			],
+			[
+				"aler",
+				"alert"
+			],
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"pro",
+				"prompt"
+			],
+			[
+				"nomb",
+				"nombre_completo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Teacher.php",
+			"settings":
+			{
+				"buffer_size": 281,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Student.php",
+			"settings":
+			{
+				"buffer_size": 355,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Course.php",
+			"settings":
+			{
+				"buffer_size": 272,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"intal",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"int",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"updat",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"Status",
+				"View: Toggle Status Bar"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inta",
+				"Package Control: Install Package"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"prin",
+				"Package Control: Install Package"
+			],
+			[
+				"hola",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"packa	 ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"show collections",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import antigravity",
+			"a + 20",
+			"a = 20",
+			"cd C:",
+			"dir"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/LumenAPI",
+		"/C/LumenAPI/app"
+	],
+	"file_history":
+	[
+		"/C/LumenAPI/vendor/illuminate/database/Eloquent/Model.php",
+		"/C/LumenAPI/database/seeds/DatabaseSeeder.php",
+		"/C/LumenAPI/database/factories/ModelFactory.php",
+		"/C/LumenAPI/app/Http/Controllers/Controller.php",
+		"/C/LumenAPI/bootstrap/app.php",
+		"/C/LumenAPI/.env",
+		"/C/Users/Cesar/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Cesar/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/LumenAPI/Homestead.yaml",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/php/php.ini",
+		"/H/multiboot/menu/menu.lst",
+		"/E/Users/Cesar/Documents/Visual Studio 2015/Projects/ConsoleApplication2/ConsoleApplication2/ConsoleApplication2/Program.cs",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Projecto Final/Subred 1 - Enrutamiento EIGRP con Sistema Autonomo 10.txt",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Projecto Final/Subred 3.txt",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Projecto Final/Cloud Configuration.txt",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Projecto Final/Subred 4 - Conexion VTP.txt",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Practicas Unidad 1/Enlaces WAN Frame Relay.txt",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Practicas Unidad 1/Enrutamiento Dinamico EIGRP.txt",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Practicas Unidad 1/spanning tree.txt",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Projecto Final/Configuracion Rapida Seguridad Router.txt",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Projecto Final/Configuracion Rapida Seguridad Switch.txt",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Practicas Unidad 1/vlans clase 2.txt",
+		"/E/Users/Cesar/Documents/Visual Studio 2013/Projects/Paleteria/Paleteria/bin/Debug/Datos/Ventas.csv",
+		"/E/Users/Cesar/Documents/Visual Studio 2013/Projects/Paleteria/Paleteria/bin/Debug/Datos/Paletas.csv",
+		"/E/Users/Cesar/Documents/Visual Studio 2013/Projects/Paleteria/Paleteria/bin/Debug/Datos/paletas.csv",
+		"/M/Dev Programs/ReSharper Ultimate 10 + (All in one crack)/3.Patch/Products.json",
+		"/E/Users/Cesar/Downloads/Documents/WhatsApp Chat with Jessica.txt",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Projecto Final/Subred 2 - Conexion VTP.txt",
+		"/E/Users/Cesar/OneDrive/Projects/PHP Project/Instalables/zapateria/views/inventariolistview.blade.php",
+		"/E/Users/Cesar/OneDrive/Projects/PHP Project/Examples/authexample/database.sql",
+		"/E/Users/Cesar/OneDrive/Projects/PHP Project/Instalables/phreeze-master/README",
+		"/E/Users/Cesar/OneDrive/Projects/PHP Project/Sites/crudpdo/db/crudpdo.sql",
+		"/C/Users/Cesar/AppData/Local/Popcorn Time/src/app/settings.js",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Practicas Unidad 1/Enrutamiento InterVLAN Router-On-Stick con Wi-Fi.txt",
+		"/H/Conmutacion y Enrutamiento/Practicas Unidad 1/Enrutamiento Dinamico OSPF.txt",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Practicas Unidad 1/Enrutamiento Dinamico RIPv1.txt",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Conmutacion y Enrutamiento/Practicas Unidad 1/Enrutamiento Estatico.txt",
+		"/E/Users/Cesar/OneDrive/Cursos/Intro to HTML and CSS/portafolio/toplist/index.html",
+		"/E/Users/Cesar/OneDrive/Cursos/Intro to HTML and CSS/portafolio/toplist/style.css",
+		"/E/Users/Cesar/Documents/Sublime/RecetasComida.txt",
+		"/E/Users/Cesar/Pictures/My Photos/Amigos/2014/WhatsApp Chat with Jessica.txt",
+		"/H/psnpatch.cfg",
+		"/G/e3flasher.log",
+		"/G/psnpatch.cfg",
+		"/E/Users/Cesar/OneDrive/Cursos/JavaScript Basics - Audacity/frontend-nanodegree-resume/index.html",
+		"/I/e3flasher.log",
+		"/E/Users/Cesar/OneDrive/PS3/PS3 Chipeados/Amigo Joaquin Ciber 1er - CECH-2001B 20 de Julio/Original NAND/e3flasher.log",
+		"/E/Users/Cesar/Documents/Software Projects/Visual Studio 2013/Projects/SISistemaClientes-WinForms/MysqlDB.sql",
+		"/E/Users/Cesar/OneDrive/Software Projects/visual studio 2013/Projects/sisistemaclientes-winforms/sisistemaclientes-winforms/Program-AsusU56E-SSD.cs",
+		"/E/Users/Cesar/OneDrive/Cursos/JavaScript Basics - Audacity/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/H/e3flasher.log",
+		"/E/Users/Cesar/OneDrive/PS3/PS3 Chipeados/Lopez Jonathan 4.66 6 de Mayo 2015 CECH-2101B/Original NAND Dump/e3flasher.log",
+		"/E/Users/Cesar/OneDrive/Cursos/JavaScript Basics - Audacity/frontend-nanodegree-resume/js/helper.js",
+		"/E/Users/Cesar/OneDrive/Escuela ITAP/Administracion de Base de Datos/Practica Estetica/sql.sql",
+		"/E/Users/Cesar/OneDrive/Projects/FuckingBSD SSh/Tercer Intento/Publico.txt",
+		"/C/Users/linx05/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/linx05/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/E/Users/Cesar/Documents/Games/PS3/PS3 Downgrade Steps.txt",
+		"/E/Users/Cesar/Documents/Other/califica-webapp/src/java/com/levinux/calificaciones/objects/Alumno.java",
+		"/C/notes for restore.txt",
+		"/E/Users/Cesar/Documents/Other/califica-webapp/src/java/com/levinux/calificaciones/init/Init.java",
+		"/E/Users/Cesar/Documents/Other/califica-webapp/src/java/com/levinux/calificaciones/helpers/Constants.java",
+		"/E/Users/Cesar/Documents/Other/califica-webapp/src/java/com/levinux/calificaciones/helpers/Queries.java",
+		"/E/Users/Cesar/Documents/Other/califica-webapp/src/java/com/levinux/calificaciones/objects/Materia.java",
+		"/E/Users/Cesar/Documents/Other/califica-webapp/src/java/com/levinux/calificaciones/servlets/LoginServlet.java",
+		"/E/Users/Cesar/Downloads/Libros Martha.txt",
+		"/E/Users/Cesar/OneDrive/Notes/Hola jessica.txt",
+		"/E/Users/Cesar/Downloads/Documents/Hola jessica.txt",
+		"/E/Users/Cesar/OneDrive/Notes/Hey dude, I just want to apologize.txt",
+		"/E/Users/Cesar/OneDrive/Clases/Cupcakes/css.css",
+		"/E/Users/Cesar/OneDrive/Clases/Cupcakes/login.php",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/5-django-fundamentals-exercise-files/before/boardgames/boardgames/main/templates/main/home.html",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/5-django-fundamentals-exercise-files/after/boardgames/main/templates/main/home.html",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/5-django-fundamentals-exercise-files/after/boardgames/user/templates/user/home.html",
+		"/E/Users/Cesar/OneDrive/Clases/Cupcakes/cupcakes.php",
+		"/E/Users/Cesar/Documents/Software Projects/PycharmProjects/Django Projects/boardgames/tictactoe/models.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/5-django-fundamentals-exercise-files/after/boardgames/templates/login.html",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/5-django-fundamentals-exercise-files/after/boardgames/tictactoe/tests.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/5-django-fundamentals-exercise-files/after/boardgames/tictactoe/models.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/5-django-fundamentals-exercise-files/after/boardgames/tictactoe/views.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/5-django-fundamentals-exercise-files/after/boardgames/boardgames/settings.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/5-django-fundamentals-exercise-files/after/boardgames/boardgames/urls.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/5-django-fundamentals-exercise-files/after/boardgames/user/views.py",
+		"/C/Users/Cesar/AppData/Local/Temp/Rar$DIa0.114/css.css",
+		"/E/Users/Cesar/OneDrive/Clases/Cupcakes/Conocenos.html",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/5-django-fundamentals-exercise-files/before/boardgames/boardgames/main/views.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/5-django-fundamentals-exercise-files/before/boardgames/boardgames/main/models.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/4-django-fundamentals-exercise-files/after/boardgames/boardgames/urls.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/4-django-fundamentals-exercise-files/after/boardgames/manage.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/4-django-fundamentals-exercise-files/after/boardgames/tictactoe/views.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/4-django-fundamentals-exercise-files/after/boardgames/tictactoe/models.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/4-django-fundamentals-exercise-files/after/boardgames/main/admin.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/4-django-fundamentals-exercise-files/after/boardgames/main/models.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/4-django-fundamentals-exercise-files/before/boardgames/main/models.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/4-django-fundamentals-exercise-files/after/boardgames/main/views.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/django-fundamentals/4-django-fundamentals-exercise-files/before/boardgames/main/views.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/admin.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/forms.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/views.py",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/bootstrap.css",
+		"/E/Users/Cesar/Documents/Tutorials/Python/Pluralsight_-_Django_Fundamentals.2014/_path.scss",
+		"/E/Users/Cesar/OneDrive/Clases/Cupcakes/Home.php",
+		"/E/Users/Cesar/OneDrive/Clases/Cupcakes/Productos.html",
+		"/E/Users/Cesar/Documents/Software Projects/PycharmProjects/Pizzabyte/PIZZABYTE/Index.html",
+		"/E/Users/Cesar/Documents/Software Projects/PycharmProjects/Pizzabyte/PIZZABYTE/index2.css",
+		"/E/Users/Cesar/Documents/Software Projects/PycharmProjects/Django Projects/django_test/manage.py",
+		"/E/Users/Cesar/Documents/Software Projects/PycharmProjects/Django Projects/django_test/django_test/settings.py",
+		"/C/django/django_test/blog/tests.py",
+		"/C/django/django_test/django_test/urls.py",
+		"/C/django/django_test/blog/views.py",
+		"/C/django/django_test/django_test/settings.py",
+		"/C/django/boardgames/boardgames/settings.py",
+		"/C/django/boardgames/manage.py",
+		"/C/django/pizzabyte/pizzabyte/settings.py",
+		"/C/virtualenvs/pizzabyte/djangoproj/pizzabyte/pizzabyte/settings.py",
+		"/C/virtualenvs/pizzabyte/djangoproj/pizzabyte/pizzabyte/urls.py",
+		"/C/virtualenvs/pizzabyte/djangoproj/pizzabyte/pizzabyte_main/models.py",
+		"/C/virtualenvs/pizzabyte/djangoproj/pizzabyte/pizzabyte_main/admin.py",
+		"/C/virtualenvs/pizzabyte/djangoproj/pizzabyte/manage.py",
+		"/C/virtualenvs/pizzabyte/djangoproj/pizzabyte/pizzabyte/wsgi.py",
+		"/C/Python34/Lib/site-packages/easy-install.pth",
+		"/C/Python34/Lib/site-packages/virtualenv.py",
+		"/C/Users/Cesar/OneDrive/PS3/PKG/Newest/psnpatch.cfg",
+		"/C/Users/Cesar/OneDrive/PycharmProjects/M101P Introduction to MongoDB for Developers/Using Pymongo/using_find_with_selector.py",
+		"/C/Users/Cesar/OneDrive/PycharmProjects/MongoDB/MongoDBUpdate.js",
+		"/C/Users/Cesar/OneDrive/PycharmProjects/MongoDB/mongoTest.py",
+		"/C/Users/Cesar/OneDrive/PycharmProjects/MongoDB/MongoDBQueries.js"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 105.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"tv",
+			"{\n    \"Name\": \"ReSharper\",\n    \"FilePath\": \"C:\\\\Users\\\\Cesar\\\\AppData\\\\Local\\\\JetBrains\\\\Installations\\\\ReSharperPlatformVs14ReSharper\\\\JetBrains.Platform.Shell.dll\"\n    \n  }",
+			"dudas",
+			"otraves",
+			"otaves",
+			"tienes dudas",
+			"bio",
+			"topContacts",
+			";",
+			"pie",
+			"operation",
+			"use example",
+			"</body>\n</html>",
+			">"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Teacher.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								275,
+								275
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Student.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								293,
+								293
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Course.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								62,
+								62
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MongoExec.errors":
+	{
+		"height": 142.0
+	},
+	"output.exec":
+	{
+		"height": 30.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "LumenAPI.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
