@@ -22,12 +22,12 @@ $app->put('/teachers{teachers}','TeacherController@update');
 $app->patch('/teachers{teachers}','TeacherController@update');
 $app->delete('/teachers{teachers}','TeacherController@destroy');
 
-$app->get('/students','StudentsController@index');
-$app->post('/students','StudentsController@store');
-$app->get('/students/{students}','StudentsController@show');
-$app->put('/students{students}','StudentsController@update');
-$app->patch('/students{students}','StudentsController@update');
-$app->delete('/students{students}','StudentsController@destroy');
+$app->get('/students','StudentController@index');
+$app->post('/students','StudentController@store');
+$app->get('/students/{students}','StudentController@show');
+$app->put('/students{students}','StudentController@update');
+$app->patch('/students{students}','StudentController@update');
+$app->delete('/students{students}','StudentController@destroy');
 
 $app->get('/courses','CourseController@index');
 $app->get('/courses/{courses}','CourseController@show');
