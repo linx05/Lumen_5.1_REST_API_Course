@@ -1,8 +1,6 @@
 <?php namespace App\Http\Controllers;
 
-use Laravel\Lumen\Routing\Controller as BaseController;
-
-    class TeacherCourseController extends BaseController
+    class TeacherCourseController extends Controller
     {
         public function index()
         {
@@ -13,7 +11,7 @@ use Laravel\Lumen\Routing\Controller as BaseController;
             return __METHOD__;
         }
         public function update()
-        { 
+        {
             return __METHOD__;
         }
         public function destroy()

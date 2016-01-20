@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"cou",
+				"courses"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
 				"max",
 				"max-width"
 			],
@@ -136,26 +144,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/Teacher.php",
+			"file": "app/Http/Controllers/StudentController.php",
 			"settings":
 			{
-				"buffer_size": 281,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Student.php",
-			"settings":
-			{
-				"buffer_size": 355,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/Course.php",
-			"settings":
-			{
-				"buffer_size": 272,
+				"buffer_size": 2000,
 				"line_ending": "Windows"
 			}
 		}
@@ -167,10 +159,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 104.0,
-		"last_filter": "install",
+		"height": 81.0,
+		"last_filter": "code com",
 		"selected_items":
 		[
+			[
+				"code com",
+				"SublimeCodeIntel: Enable Live Autocompletion for Current Language"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -256,7 +252,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 400.0
+		"width": 528.0
 	},
 	"console":
 	{
@@ -285,13 +281,37 @@
 	"expanded_folders":
 	[
 		"/C/LumenAPI",
-		"/C/LumenAPI/app"
+		"/C/LumenAPI/.vagrant",
+		"/C/LumenAPI/app",
+		"/C/LumenAPI/app/Http",
+		"/C/LumenAPI/app/Http/Controllers",
+		"/C/LumenAPI/app/Http/Middleware",
+		"/C/LumenAPI/app/Listeners",
+		"/C/LumenAPI/app/Providers",
+		"/C/LumenAPI/bootstrap",
+		"/C/LumenAPI/database",
+		"/C/LumenAPI/database/factories",
+		"/C/LumenAPI/database/migrations",
+		"/C/LumenAPI/database/seeds"
 	],
 	"file_history":
 	[
-		"/C/LumenAPI/vendor/illuminate/database/Eloquent/Model.php",
+		"/C/LumenAPI/app/Http/Controllers/TeacherCourseController.php",
+		"/C/LumenAPI/app/Http/Controllers/CourseStudentController.php",
+		"/C/LumenAPI/app/Http/routes.php",
+		"/C/LumenAPI/app/Http/Controllers/StudentController.php",
+		"/C/LumenAPI/app/Http/Controllers/CourseController.php",
+		"/C/LumenAPI/app/Http/Controllers/TeacherController.php",
 		"/C/LumenAPI/database/seeds/DatabaseSeeder.php",
 		"/C/LumenAPI/database/factories/ModelFactory.php",
+		"/C/LumenAPI/database/migrations/2016_01_19_030338_create_students_table.php",
+		"/C/LumenAPI/database/migrations/2016_01_19_030352_create_courses_table.php",
+		"/C/LumenAPI/app/Teacher.php",
+		"/C/LumenAPI/database/migrations/2016_01_19_030244_create_teachers_table.php",
+		"/C/LumenAPI/app/Student.php",
+		"/C/LumenAPI/database/migrations/2016_01_19_030431_create_course_student_table.php",
+		"/C/LumenAPI/app/Course.php",
+		"/C/LumenAPI/vendor/illuminate/database/Eloquent/Model.php",
 		"/C/LumenAPI/app/Http/Controllers/Controller.php",
 		"/C/LumenAPI/bootstrap/app.php",
 		"/C/LumenAPI/.env",
@@ -403,30 +423,18 @@
 		"/C/django/django_test/django_test/settings.py",
 		"/C/django/boardgames/boardgames/settings.py",
 		"/C/django/boardgames/manage.py",
-		"/C/django/pizzabyte/pizzabyte/settings.py",
-		"/C/virtualenvs/pizzabyte/djangoproj/pizzabyte/pizzabyte/settings.py",
-		"/C/virtualenvs/pizzabyte/djangoproj/pizzabyte/pizzabyte/urls.py",
-		"/C/virtualenvs/pizzabyte/djangoproj/pizzabyte/pizzabyte_main/models.py",
-		"/C/virtualenvs/pizzabyte/djangoproj/pizzabyte/pizzabyte_main/admin.py",
-		"/C/virtualenvs/pizzabyte/djangoproj/pizzabyte/manage.py",
-		"/C/virtualenvs/pizzabyte/djangoproj/pizzabyte/pizzabyte/wsgi.py",
-		"/C/Python34/Lib/site-packages/easy-install.pth",
-		"/C/Python34/Lib/site-packages/virtualenv.py",
-		"/C/Users/Cesar/OneDrive/PS3/PKG/Newest/psnpatch.cfg",
-		"/C/Users/Cesar/OneDrive/PycharmProjects/M101P Introduction to MongoDB for Developers/Using Pymongo/using_find_with_selector.py",
-		"/C/Users/Cesar/OneDrive/PycharmProjects/MongoDB/MongoDBUpdate.js",
-		"/C/Users/Cesar/OneDrive/PycharmProjects/MongoDB/mongoTest.py",
-		"/C/Users/Cesar/OneDrive/PycharmProjects/MongoDB/MongoDBQueries.js"
+		"/C/django/pizzabyte/pizzabyte/settings.py"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
 		"height": 105.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -434,6 +442,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"courses",
+			"teachers",
+			"mysql",
+			"user",
 			"tv",
 			"{\n    \"Name\": \"ReSharper\",\n    \"FilePath\": \"C:\\\\Users\\\\Cesar\\\\AppData\\\\Local\\\\JetBrains\\\\Installations\\\\ReSharperPlatformVs14ReSharper\\\\JetBrains.Platform.Shell.dll\"\n    \n  }",
 			"dudas",
@@ -450,7 +462,7 @@
 			">"
 		],
 		"highlight": true,
-		"in_selection": false,
+		"in_selection": true,
 		"preserve_case": false,
 		"regex": false,
 		"replace_history":
@@ -465,61 +477,32 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/Teacher.php",
+					"file": "app/Http/Controllers/StudentController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 281,
+						"buffer_size": 2000,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								275,
-								275
+								156,
+								163
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/Student.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 355,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								293,
-								293
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -527,37 +510,12 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Course.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 272,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								62,
-								62
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -578,11 +536,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.807635285397,
 			1.0
 		],
 		"rows":
@@ -608,7 +573,7 @@
 	"project": "LumenAPI.sublime-project",
 	"replace":
 	{
-		"height": 42.0
+		"height": 66.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -646,7 +611,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 208.0,
+	"side_bar_width": 331.0,
 	"status_bar_visible": false,
 	"template_settings":
 	{
