@@ -6,6 +6,11 @@
 
     class TeacherController extends Controller
     {
+
+      public function __construct(){
+        $this->middleware('oauth', ['except'=> ['index','show']]);
+      }
+
       public function index() {
           $teacher = Teacher::all();
           return $this->createSucessResponse($teacher, 200);
